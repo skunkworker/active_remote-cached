@@ -30,3 +30,5 @@ class HashCache < Hash
 end
 
 require 'mocha/api'
+
+RUBY_AND_ACTIVE_SUPPORT_VERSION = "#{RUBY_ENGINE_VERSION}:#{ActiveSupport::VERSION::STRING}".freeze
